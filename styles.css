@@ -1,3 +1,56 @@
-/* Your Styles Here */
-body{
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: left;
+  margin-top: 15px;
+  height: 45px;
+  background-color: white;
+}
+
+.name {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  height: 550px;
+  width: 420px;
+}
+
+.hobby {
+  height: 215px;
+  width: 315px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.social-good {
+  margin-left: 25px;
+  width: 580px;
+}
+
+.social-good p {
+  margin-left: 25px;
+}
+
+.intro p {
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 350px;
+}
+
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
